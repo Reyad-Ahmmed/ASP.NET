@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="Instuctor_Course.Template" %>
+
+<%@ Register Src="~/UserNavigation.ascx" TagPrefix="uc1" TagName="UserNavigation" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title><%:Page.Title %></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="/Content/bootstrap.css" rel="stylesheet" />
+    <script src="/Scripts/umd/popper.js"></script>
+    <script src="/Scripts/jquery-3.6.0.js"></script>
+    <link href="/Content/myStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <nav class="navbar navbar-light navbar-expand-md bg-secondary shadow fixed-top px-3">
+            <span class="navbar-brand text-light"><span style="color:rgb(179 181 248)">IT</span> Solution Limited</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnav" aria-controls="topnav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="topnav">
+                <uc1:UserNavigation runat="server" ID="UserNavigation" />
+                <ul class="navbar-nav ml-auto">
+                    <asp:LoginView ID="LoginView1" runat="server">
+                        <AnonymousTemplate>
+                            <li class="nav-item">
+                                <a href="/Register.aspx" class="nav-link" style="color: lightblue">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/Login.aspx" class="nav-link" style="color: lightblue">Login</a>
+                            </li>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <li class="nav-item">
+                                <asp:LinkButton CssClass="nav-link" ID="logout" runat="server" Style="color: lightblue" OnClick="logout_Click">Logout</asp:LinkButton>
+                            </li>
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid mainContent">
+
+            <asp:ContentPlaceHolder ID="main" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer class="container-fluid py-4 bg-light">
+            &copy;<%:DateTime.Now.Year %> Educational Application
+        </footer>
+        <div>
+            <asp:ContentPlaceHolder ID="foot" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="/Scripts/bootstrap.js"></script>
+</body>
+</html>

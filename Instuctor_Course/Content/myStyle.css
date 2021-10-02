@@ -1,0 +1,12 @@
+﻿body {
+    padding-top: 70px;
+    background: url("../logo/website.jpg");
+    background-size:cover;
+}
+.mainContent{
+    min-height:calc(100vh - 140px);
+}
+.theadColor{
+    background-color:rgb(186, 168, 168);
+}
+

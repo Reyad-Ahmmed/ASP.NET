@@ -1,0 +1,142 @@
+﻿.btn-ouline-olive {
+    border: 1px solid rgb(85, 83, 25);
+    border-radius: 5px;
+    color: rgb(85, 83, 25);
+}
+
+    .btn-ouline-olive:hover {
+        background-color: rgb(85, 83, 25);
+        color: white;
+    }
+
+.btn-ouline-pink {
+    border: 1px solid rgb(190, 15, 209);
+    border-radius: 5px;
+    color: rgb(190, 15, 209);
+}
+
+    .btn-ouline-pink:hover {
+        background-color: rgb(190, 15, 209);
+        color: white;
+    }
+
+.btn-ouline-orange {
+    border: 1px solid rgb(255, 62, 9);
+    border-radius: 5px;
+    color: rgb(255, 62, 9);
+}
+
+    .btn-ouline-orange:hover {
+        background-color: rgb(255, 62, 9);
+        color: white;
+    }
+
+.btn-ouline-coffee {
+    border: 1px solid rgb(100, 26, 26);
+    border-radius: 5px;
+    color: rgb(100, 26, 26);
+}
+
+    .btn-ouline-coffee:hover {
+        background-color: rgb(100, 26, 26);
+        color: white;
+    }
+
+.btn-ouline-navy {
+    border: 1px solid rgb(17, 24, 82);
+    border-radius: 5px;
+    color: rgb(17, 24, 82);
+}
+
+    .btn-ouline-navy:hover {
+        background-color: rgb(17, 24, 82);
+        color: white;
+    }
+
+.btn-ouline-sky {
+    border: 1px solid rgb(170, 200, 246);
+    border-radius: 5px;
+    color: rgb(170, 200, 246);
+}
+
+    .btn-ouline-sky:hover {
+        background-color: rgb(170, 200, 246);
+        color: black;
+    }
+
+.btn-ouline-bisque {
+    border: 1px solid rgb(247, 226, 196);
+    border-radius: 5px;
+    color: rgb(247, 226, 196);
+}
+
+    .btn-ouline-bisque:hover {
+        background-color: rgb(247, 226, 196);
+        color: black;
+    }
+
+.btn-ouline-lemon {
+    border: 1px solid rgb(221, 248, 169);
+    border-radius: 5px;
+    color: rgb(221, 248, 169);
+}
+
+    .btn-ouline-lemon:hover {
+        background-color: rgb(221, 248, 169);
+        color: black;
+    }
+
+.btn-ouline-violet {
+    border: 1px solid rgb(97, 63, 182);
+    border-radius: 5px;
+    color: rgb(97, 63, 182);
+}
+
+    .btn-ouline-violet:hover {
+        background-color: rgb(97, 63, 182);
+        color: white;
+    }
+
+.btn-ouline-lightviolet {
+    border: 1px solid rgb(217, 188, 237);
+    border-radius: 5px;
+    color: rgb(217, 188, 237);
+}
+
+    .btn-ouline-lightviolet:hover {
+        background-color: rgb(217, 188, 237);
+        color: black;
+    }
+
+.btn-ouline-mistyrose {
+    border: 1px solid rgb(243, 213, 213);
+    border-radius: 5px;
+    color: rgb(243, 213, 213);
+}
+
+    .btn-ouline-mistyrose:hover {
+        background-color: rgb(243, 213, 213);
+        color: black;
+    }
+
+.btn-ouline-patrol {
+    border: 1px solid rgb(11, 55, 62);
+    border-radius: 5px;
+    color: rgb(11, 55, 62);
+}
+
+    .btn-ouline-patrol:hover {
+        background-color: rgb(11, 55, 62);
+        color: white;
+    }
+
+.btn-ouline-aqua {
+    border: 1px solid rgb(147, 225, 220);
+    border-radius: 5px;
+    color: rgb(147, 225, 220);
+}
+
+    .btn-ouline-aqua:hover {
+        background-color: rgb(147, 225, 220);
+        color: black;
+    }
